@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "continuous-integration"
+  "defaultProject": "continuous-integration",
+  "cli": {
+    "analytics": "37dfca86-8973-4c3d-86d7-5f6b607b779e"
+  }
 }

@@ -1,11 +1,6 @@
 pipeline {
     agent any
     stages {
-        stage('Reflesh From Git'){
-          steps{
-            git 'pull origin master'
-          }
-        }
         stage('Install Dependencies') {
             steps {
                 sh 'npm install'

@@ -16,5 +16,10 @@ pipeline {
              sh 'npm build'
           }
         }
+        stage('Serve App Local'){
+          steps{
+            sh 'npm run serve-app'
+          }
+        }
     }
 }
